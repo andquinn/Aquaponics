@@ -1,0 +1,11 @@
+// Wifi
+#include <SoftwareSerial.h>
+#define RX 2
+#define TX 3
+String accessPoint = "Police_Ops1";       
+String password = "Ma11hew15";
+int channel = 407580; 
+String writeAPI = "M4TG5ULS2PYGO8LO";
+String HOST = "api.thingspeak.com";
+String PORT = "80";
+SoftwareSerial esp8266(RX,TX); 
