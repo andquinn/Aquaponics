@@ -2,10 +2,10 @@
 #include <SoftwareSerial.h>
 #define RX 2
 #define TX 3
-String accessPoint = "ASUS_Guest";       
-String password = "Aqua1234";
-int channel = 407580; 
-String writeAPI = "M4TG5ULS2PYGO8LO";
+String accessPoint = "<<Insert WiFi Name>>";       
+String password = "<<Insert WiFi Password>>";
+int channel = 10101010; 
+String writeAPI = "<<Insert ThingSpeak writeAPI>>";
 String HOST = "api.thingspeak.com";
 String PORT = "80";
 SoftwareSerial esp8266(RX,TX); 
